@@ -1,7 +1,8 @@
 name: anyrouter
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 8 * * *'
+      timezone: 'Asia/Shanghai'
   workflow_dispatch:
 
 jobs:
